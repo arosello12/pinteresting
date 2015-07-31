@@ -1,9 +1,23 @@
-$body-bg:	#ecf0f1;
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600,400italic,600italic,900,900italic);
+
+$body-bg:	#bdc3c7;
+$font-family-sans-serif:  "Source Sans Pro", Helvetica, Arial, sans-serif;
 $brand-primary: #f39c12;
+$navbar-height: 45px;
 $navbar-inverse-bg:  #27ae60;
 $navbar-inverse-link-color: #ecf0f1;
 $navbar-inverse-color: #ecf0f1;
-$jumbotron-bg: #bdc3c7;
+$jumbotron-bg: #ecf0f1;
+
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	
+	font-weight: bold;
+}
