@@ -16,6 +16,5 @@
 /tmp
 .DS_Store
 
-# Ignore all Devise Mailer Log In Info to keep public from seeing it on Github
-.env
-Procfile
+# Ignore application configuration
+/config/application.yml

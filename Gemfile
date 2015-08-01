@@ -20,6 +20,8 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'devise', '~> 3.5.1'
 
+gem "figaro"
+
 group :doc do
 	# bundle exec rake doc:rails generates the API under doc/api.
 	gem 'sdoc', require: false
@@ -28,7 +30,6 @@ end
 group :development, :test do 
 	# Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
-	gem 'foreman'
 end
 group :production do 
 	gem 'pg'  # postgress
