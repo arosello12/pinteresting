@@ -7,7 +7,7 @@ class PinsController < ApplicationController
   # GET /pins
   #Read All
   def index
-    @pins = Pin.all
+    @pins = Pin.all.order("created_at desc")
   end
 
   # GET /pins/1

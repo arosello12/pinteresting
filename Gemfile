@@ -30,6 +30,7 @@ gem 'aws-sdk', '< 2.0'
 
 # Used to layout pins
 gem 'masonry-rails', '~> 0.2.4'
+gem 'will_paginate', '~> 3.0.7'
 
 group :doc do
 	# bundle exec rake doc:rails generates the API under doc/api.
