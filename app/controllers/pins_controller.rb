@@ -47,7 +47,7 @@ class PinsController < ApplicationController
     if @pin.update(pin_params)
       redirect_to @pin, notice: 'Pin was successfully updated.'
     else
-     render :edit
+      render :edit
     end
   end
 
